@@ -1,0 +1,26 @@
+
+GITHUB = GitHub is useful for the project developers
+
+
+
+in git hub there are many commands like 
+git add .   =>it means adding a file 
+git status  =>checking status like how many files are created 
+git init     
+git push    => we can push the file to github
+git pull   
+git log     =>checking the status 
+git commit  => final stage to push the file with committing messages
+
+In GitHub there are a concepts called branching and merging
+branching?? we use branching for creating a new feature like if we want to add a new features to the exisiting projects we can create a branch in that we can create a new feature and we can check that whether it is a correct or not if it is correct we can merge to the main 
+why we use branch means because it wont affect the main file
+merge is the concept of making the branch files into main
+
+BRANCHING =adding a new feature 
+MERGING = merging the file with another branch 
+
+git branch  => creating a branch
+git del branch => deleting the branch
+git merge branch  => merging the branch into main
+git switch main  => switching to the main 
