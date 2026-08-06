@@ -1,4 +1,5 @@
 
+# correct
 # COUNT CHARCTER 
 word="keerthana"
 freq=0
@@ -8,7 +9,7 @@ print(freq)
 
 
 
-
+# correct
 # frequency in a string 
 word="leepyear"
 freq={}
@@ -19,7 +20,7 @@ for i in word:
         freq[i]=1
 print(freq)
 
-
+# correct
 #  FIRST NON REPEATING CHARCTER 
 word="thursday"
 freq={}
@@ -35,7 +36,7 @@ for i in word:
        print("first non repeating character:",i)
        break
 
-
+# correct
 # STACK
 stack=[1,2,3,3,4]
 stack.append(10)
@@ -54,6 +55,7 @@ else:
 stack=[1,2,3,3,4]
 print(stack[-1])
 
+# correct but incorrect code at 67
 # QUEUE
 data=[1,2,3,4,5]
 data.append(90)
@@ -62,7 +64,7 @@ print(data)
 data=[1,2,3,4,5]
 data.pop()
 print(data)
-print(data[-1])
+print(data[-1])   # wrong  : it should be 'data[0]'
 if len(data)==0:
     print("empty data")
 else:
@@ -70,7 +72,7 @@ else:
 
 
 
-
+# correct
 # DETECT DUPLICATES 
 a=[10,101,20,20,30,50,50]
 check=[]
