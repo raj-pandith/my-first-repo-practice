@@ -1,26 +1,32 @@
 
-GITHUB = GitHub is useful for the project developers
-
+#GITHUB = GitHub is useful for the project developers
+github is a cloud repository to store our code inorder to share the code access with other coders and maintain(save) code and more benefits like connecting developer to contribute on same project
+what is git ? git is a tool to manage code versions in our local computer
 
 
 in git hub there are many commands like 
-git add .   =>it means adding a file 
-git status  =>checking status like how many files are created 
-git init     
+git add .   =>it means adding a file // to tell git to start tracking this file in case of modification
+git status  =>checking status like how many files are created/modified # correct but also 
+git init    # it should be the first command to initialize git tool to your directory 
 git push    => we can push the file to github
-git pull   
-git log     =>checking the status 
-git commit  => final stage to push the file with committing messages
+git pull   # to extract the latest updated code from cloud storage (github) to our local computer
+git log     =>checking the status # viewing all previous commits(marking stable code version)
+git commit  => final stage to push the file with committing messages  # not bad answer , but commit is used to mark and submit the stable code
 
+# what is branching and merging ?
 In GitHub there are a concepts called branching and merging
 branching?? we use branching for creating a new feature like if we want to add a new features to the exisiting projects we can create a branch in that we can create a new feature and we can check that whether it is a correct or not if it is correct we can merge to the main 
 why we use branch means because it wont affect the main file
-merge is the concept of making the branch files into main
+merge is the concept of making the branch files into main  
 
 BRANCHING =adding a new feature 
 MERGING = merging the file with another branch 
 
-git branch  => creating a branch
-git del branch => deleting the branch
-git merge branch  => merging the branch into main
-git switch main  => switching to the main 
+git branch  => creating a branch # something missing : git branch branch-name
+git del branch => deleting the branch # wrong cmd
+git merge branch  => merging the branch into main 
+git switch main  => switching to the main # correct 
+
+
+# so overall knowledge on git and github is :
+7/10
